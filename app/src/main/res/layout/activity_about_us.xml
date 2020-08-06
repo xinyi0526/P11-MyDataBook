@@ -8,8 +8,24 @@
     tools:context=".AboutUsActivity">
 
     <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/ivAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ajax_loader" />
+
+    <TextView
         android:id="@+id/tvAbout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textColor="#090909"
+        android:textSize="24sp" />
 </LinearLayout>
